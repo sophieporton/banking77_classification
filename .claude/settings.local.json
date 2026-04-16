@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c ':*)",
+      "Bash(python -c \"import json; nb=json.load\\(open\\('banking77_main.ipynb'\\)\\); print\\(list\\(nb['metadata']['widgets']['application/vnd.jupyter.widget-state+json'].keys\\(\\)\\)[:3]\\)\")"
+    ]
+  }
+}
