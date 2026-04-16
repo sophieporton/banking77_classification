@@ -2,7 +2,15 @@
   "permissions": {
     "allow": [
       "Bash(python -c ':*)",
-      "Bash(python -c \"import json; nb=json.load\\(open\\('banking77_main.ipynb'\\)\\); print\\(list\\(nb['metadata']['widgets']['application/vnd.jupyter.widget-state+json'].keys\\(\\)\\)[:3]\\)\")"
+      "Bash(python -c \"import json; nb=json.load\\(open\\('banking77_main.ipynb'\\)\\); print\\(list\\(nb['metadata']['widgets']['application/vnd.jupyter.widget-state+json'].keys\\(\\)\\)[:3]\\)\")",
+      "Read(//c/Users/44753/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/078e9d60-677d-4fcd-82f7-f2f4ebf20b4d/ee2bb5ab-902c-49b0-805a-15fd6666a405/skills/docx/**)",
+      "Bash(node -e \"require\\('docx'\\); console.log\\('docx ok'\\)\")",
+      "Bash(npm install:*)",
+      "Bash(node -e \"require\\('docx'\\); console.log\\('ok'\\)\")",
+      "Bash(node create_article.js)",
+      "Bash(python scripts/office/validate.py \"C:\\\\Users\\\\44753\\\\OneDrive - University of St Andrews\\\\Desktop\\\\Freelance Portfolio\\\\banking77_classification-1\\\\banking77_article.docx\")",
+      "Bash(pip install:*)",
+      "Bash(python -c \"import os; f='C:\\\\\\\\\\\\\\\\Users\\\\\\\\\\\\\\\\44753\\\\\\\\\\\\\\\\OneDrive - University of St Andrews\\\\\\\\\\\\\\\\Desktop\\\\\\\\\\\\\\\\Freelance Portfolio\\\\\\\\\\\\\\\\banking77_classification-1\\\\\\\\\\\\\\\\banking77_article.docx'; print\\(f'Size: {os.path.getsize\\(f\\):,} bytes'\\)\")"
     ]
   }
 }
